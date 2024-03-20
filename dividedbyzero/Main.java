@@ -8,7 +8,7 @@ public class Main {
         try {
             System.out.println(3/0);
         }catch (Exception e){
-            System.out.print("Caught runtime exception = %s\n.");
+            System.out.printf("Caught runtime exception = %s\n.",e.getMessage());
         }
     }
 }
