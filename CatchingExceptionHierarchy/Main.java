@@ -4,7 +4,6 @@ class MyParentException extends Exception {
 }
 class MyChildException extends MyParentException {
 }
-
 // 创建 MyChildException 的子类 MyGrandChildException
 class MyGrandChildException extends MyChildException {
 }
